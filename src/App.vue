@@ -19,9 +19,6 @@ export default {
 
 
 <style lang="scss">
-.body-content {
-    height: 400px;
-}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

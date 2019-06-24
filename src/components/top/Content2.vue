@@ -1,17 +1,6 @@
 <template>
     <div class="content2">
-        about this app.
-        最終退館チェックリスト
+例えば、鍵をかけた事を写真でアップロードして退館処理の証明とすることができます。
+毎日写真をアップロードすることで、忘れないように管理できます。
     </div>
 </template>
-
-
-<style lang="scss">
-.content2 {
-    background-color: whitesmoke;
-    color: gray;
-    font-weight: bold;
-    font-size: x-large;
-    height: 400px;
-}
-</style>
