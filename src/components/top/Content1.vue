@@ -52,11 +52,28 @@
     justify-content: center;
     //align-items: center;
 }
+
+.content-blue {
+    background-color: #058584;
+    color: white;
+    font-size: x-large;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .content2 {
     background-color: whitesmoke;
     color: gray;
-    font-weight: bold;
     font-size: x-large;
     height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-textbox-left {
+    display: flex;
+    justify-content: left;
 }
 </style>

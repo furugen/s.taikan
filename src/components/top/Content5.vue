@@ -1,5 +1,5 @@
 <template>
-    <div class="content2">
+    <div class="content-blue">
 プランの違い
 フリープラン
 登録人数５人まで

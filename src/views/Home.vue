@@ -1,15 +1,10 @@
 <template>
   <div>
     <Content1></Content1>
-    <hr>
     <Content2></Content2>
-    <hr>
     <Content3></Content3>
-    <hr>
     <Content4></Content4>
-    <hr>
     <Content5></Content5>
-    <hr>
   </div>
 </template>
 
