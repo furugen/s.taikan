@@ -1,28 +1,27 @@
 <template>
     <div class="content">
-        <div>
-        <p class="title-text">TOJIMARI - 会社、お店で安心な戸締りツール</p>
-        <p>TOJIMARI(とじまり)は、毎日の会社やお店の戸締りを、安心して行うためのシンプルなツールです。</p>
+        <div style="position: relative;">
+            <p class="title-text">TOJIREPO - 会社やお店の安心な戸締りをサポートします。</p>
+            <p>TOJIREPO(とじれぽ)は、戸締り＋レポート。会社やお店の戸締りのレポートすることで、安全に行うためのシンプルなツールです。</p>
+        </div>
 
+        <div style="position: absolute; bottom: 100px;">
+            <button class="button-style">まずは、無料プランから</button>
         </div>
     </div>
-    <!-- <div class="content">
-        <div class="content-container">
-            <div class="content-left">
-                <p class="title-text">最終退館チェックリストって？</p>
-    <p class="detail-text">会社やお店の最後の戸締り。</p>
-    <p class="detail-text">鍵の閉め忘れ、電気の消し忘れ。不安になりませんか？</p>
-    <p class="detail-text">スマホで写真を撮って退館報告をしましょう。</p>
-            </div>
-            <div class="content-right">
-                画像
-            </div>
-        </div>
-    </div> -->
 </template>
 
 
 <style lang="scss">
+.button-style {
+    font-size: x-large;
+    color: black;
+    border-radius: 10px;
+    background:  #42f4dc;
+    width: 400px;
+    border-style: none;
+    padding: 10px;
+}
 .content-container {
     display: grid;
     width: 100%;

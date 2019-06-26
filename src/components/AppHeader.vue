@@ -1,9 +1,9 @@
 <template>
     <div id="header-content">
         <div id="nav">
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link> |
-        <router-link>ccc</router-link>
+        TOJIREP   　TOJIREPOについて　  料金プラン　   ログイン
+        <!-- <router-link to="/about">About</router-link> |
+        <router-link>ccc</router-link> -->
         
         </div>
     </div>
@@ -13,6 +13,9 @@
 #header-content {
     position: sticky;
     top: 0;
+    color: whitesmoke;
+    font-weight: bold;
+
     background-color: #058584;
 }
 #nav {
