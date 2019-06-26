@@ -32,6 +32,7 @@
 .scroll {
   background-color: white;
   color: black;
+  box-shadow: 0 2px 4px grey;
 }
 
 #nav {
