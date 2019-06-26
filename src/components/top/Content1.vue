@@ -1,8 +1,8 @@
 <template>
     <div class="content">
         <div style="position: relative;">
-            <p class="title-text">TOJIREPO - 会社やお店の安心な戸締りをサポートします。</p>
-            <p>TOJIREPO(とじれぽ)は、戸締り＋レポート。会社やお店の戸締りのレポートすることで、安全に行うためのシンプルなツールです。</p>
+            <p class="title-text">戸締りレポート - 会社やお店の安心な戸締りをサポートします。</p>
+            <p>戸締りレポートは、戸締り＋レポート。会社やお店の戸締りのレポートすることで、安全に行うためのシンプルなツールです。</p>
         </div>
 
         <div style="position: absolute; bottom: 100px;">
