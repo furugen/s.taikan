@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <appHeader></appHeader>
+    <appHeader style="height:60px;"></appHeader>
     <router-view />
     <appFooter></appFooter>
   </div>
@@ -13,7 +13,7 @@ export default {
   components : {
     AppHeader,
     AppFooter
-  }
+  },
 }
 </script>
 
