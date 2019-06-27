@@ -1,5 +1,9 @@
 <template>
-  <div class="footer">フッターエリア</div>
+  <div class="footer">
+      お問い合わせははkちら。
+<p>ツイッター</p>
+<p>Facebook</p>
+  </div>
 </template>
 <style lang="scss">
 .footer {
