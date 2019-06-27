@@ -1,8 +1,20 @@
 <template>
   <div>
     <div id="header-content">
+      <!-- <img src="@/assets/header-log.png"  width="120" height="30"/> -->
       <div id="nav">
-        戸締りレポート 機能について 料金プラン ログイン
+        <div class="container">
+          <div class="left-menu">
+            <router-link to="/">戸締りReport</router-link>
+          </div>
+          
+          <div class="right-menu">
+            
+            <router-link to="/about">機能について</router-link>
+            <router-link to="/price">料金プラン</router-link>
+            <router-link to="/login">ログイン</router-link>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -10,6 +22,20 @@
 
 
 <style lang="scss">
+.container {
+  display: grid;
+  grid-template-columns: 5% 20% 1fr;
+  grid-template-areas: "space left-menu right-menu";
+}
+
+.left-menu {
+  grid-area: left-menu;
+}
+
+.right-menu {
+  grid-area: right-menu;
+}
+
 #header-content {
   font-weight: bold;
   position: fixed;
@@ -31,11 +57,7 @@
 #nav {
   padding: 18px;
   a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+
   }
 }
 </style>
