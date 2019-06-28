@@ -1,25 +1,32 @@
 <template>
-  <div>
-    ログイン
+  <div id="login-container">
+    <div id="login">ログイン</div>
   </div>
 </template>
 
+<style lang="scss">
+#login-container {
+  padding: 20px;
+  background-color: darkgray;
+  color: darkgray;
+}
+#login {
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  color: darkgray;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+
 <script>
 // @ is an alias to /src
-import Content1 from '@/components/top/Content1.vue'
-import Content2 from '@/components/top/Content2.vue'
-import Content3 from '@/components/top/Content3.vue'
-import Content4 from '@/components/top/Content4.vue'
-import Content5 from '@/components/top/Content5.vue'
+
 
 export default {
   components: {
-    Content1,
-    Content2,
-    Content3,
-    Content4,
-    Content5
   }
-  
-}
+};
 </script>

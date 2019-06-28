@@ -1,18 +1,17 @@
 <template>
   <div>
-    <div id="header-content">
+    <div id="header-content" class="top-scroll">
       <!-- <img src="@/assets/header-log.png"  width="120" height="30"/> -->
       <div id="nav">
         <div class="container">
           <div class="left-menu">
-            <router-link to="/">戸締りReport</router-link>
+            <RouterLinkButton to="/" label="戸締りReport"></RouterLinkButton>
           </div>
-          
+
           <div class="right-menu">
-            
-            <router-link to="/about">機能について</router-link>
-            <router-link to="/price">料金プラン</router-link>
-            <router-link to="/login">ログイン</router-link>
+            <RouterLinkButton to="/about" label="機能について">aaaa</RouterLinkButton>
+            <RouterLinkButton to="/price" label="料金プラン"></RouterLinkButton>
+            <RouterLinkButton to="/login" label="ログイン"></RouterLinkButton>
           </div>
         </div>
       </div>
@@ -47,23 +46,44 @@
 .top-scroll {
   background-color: #058584;
   color: whitesmoke;
+  :link,
+  :visited,
+  :hover,
+  :active,
+  :focus {
+    color: white;
+  }
 }
 .scroll {
   background-color: white;
   color: darkolivegreen;
   box-shadow: 0 2px 4px grey;
+  :link,
+  :visited,
+  :hover,
+  :active,
+  :focus {
+    color: darkolivegreen;
+  }
 }
 
 #nav {
   padding: 18px;
   a {
-
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
   }
 }
 </style>
 
 <script>
+import RouterLinkButton from "@/components/RouterLinkButton.vue";
+
 export default {
+  components: {
+    RouterLinkButton
+  },
   mounted: function() {
     //  window.addEventListener( "scroll", function() {
 

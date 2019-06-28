@@ -6,7 +6,7 @@
         </div>
 
         <div style="position: absolute; bottom: 100px;">
-            <button class="button-style">まずは、無料プランから</button>
+            <button class="button-style">まずは、無料プランで</button>
         </div>
     </div>
 </template>
