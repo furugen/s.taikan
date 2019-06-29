@@ -18,7 +18,7 @@
           required
         ></v-text-field>
 
-        <v-btn>
+        <v-btn to="/report">
           ログイン
           </v-btn>
       </v-form>
