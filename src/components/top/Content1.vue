@@ -43,8 +43,8 @@
     grid-column: 4;
 }
 .content {
-    background-color: #058584;
-    color: white;
+    //background-color: #058584;
+    //color: white;
     font-weight: bold;
     height: 720px;
     display: flex;

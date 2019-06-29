@@ -1,10 +1,32 @@
 <template>
   <div>
-    <div id="header-content" class="top-scroll">
-      <!-- <img src="@/assets/header-log.png"  width="120" height="30"/> -->
+    <v-toolbar app>
+        <v-toolbar-title class="headline ">
+          <router-link  to="/">
+          <span class="font-weight-light">戸締りReport</span>
+          </router-link>
+          
+        </v-toolbar-title>
+        <v-spacer></v-spacer>
+
+        <v-btn flat to="/about">
+         <span class="mr-2">機能について</span>
+        </v-btn>
+
+        <v-btn flat to="/price">
+         <span class="mr-2">各プラン</span>
+        </v-btn>
+        
+        <v-btn flat to="/login">
+         <span class="mr-2">ログイン</span>
+        </v-btn>
+    </v-toolbar>
+
+    <!-- <div id="header-content" class="top-scroll">
       <div id="nav">
         <div class="container">
           <div class="left-menu">
+            aaaaa
             <RouterLinkButton to="/" label="戸締りReport"></RouterLinkButton>
           </div>
 
@@ -15,8 +37,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
+
 </template>
 
 

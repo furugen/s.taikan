@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Content1></Content1>
+    <Content1 style="margin-top:30px;"></Content1>
     <Content2></Content2>
     <Content3></Content3>
     <Content4></Content4>
