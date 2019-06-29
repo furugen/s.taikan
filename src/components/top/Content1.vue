@@ -1,10 +1,10 @@
 <template>
-    <div class="content">
-        <div style="position: relative;">
+    <div class="top-container">
+        <div style="text-align:center">
             <p class="title-text">戸締りレポート - 安心な戸締りをサポートします。</p>
             <p>戸締りレポートは、戸締り＋レポート。会社やお店の戸締りのレポートすることで、安全に行うためのシンプルなツールです。</p>
         </div>
-
+        <CatchIamge style="margin-top:40px;"></CatchIamge>
         <div style="position: absolute; bottom: 100px;">
             <button class="button-style">まずは、無料プランで</button>
         </div>
@@ -13,15 +13,6 @@
 
 
 <style lang="scss">
-.button-style {
-    font-size: x-large;
-    color: black;
-    border-radius: 10px;
-    background:  #42f4dc;
-    width: 400px;
-    border-style: none;
-    padding: 10px;
-}
 .content-container {
     display: grid;
     width: 100%;
@@ -42,13 +33,14 @@
 .content-right {
     grid-column: 4;
 }
-.content {
-    //background-color: #058584;
-    //color: white;
+.top-container {
+    background-color: #058584;
+    color: white;
     font-weight: bold;
     height: 720px;
-    display: flex;
-    justify-content: center;
+    padding-top: 50px;
+    
+    // justify-content: center;
     //align-items: center;
 }
 
@@ -76,3 +68,14 @@
     justify-content: left;
 }
 </style>
+
+
+<script>
+import CatchIamge from "@/components/top/CatchImage.vue"
+
+export default {
+    components : {
+        CatchIamge
+    }
+}
+</script>
