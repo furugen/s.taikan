@@ -1,6 +1,6 @@
 {
-  "name": "saish-taikan",
-  "short_name": "saish-taikan",
+  "name": "sample-vue-style",
+  "short_name": "sample-vue-style",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",

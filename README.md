@@ -1,4 +1,4 @@
-# saish-taikan
+# sample-vue-style
 
 ## Project setup
 ```
