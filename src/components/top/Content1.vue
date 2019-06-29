@@ -2,7 +2,7 @@
     <div class="top-container">
         <div style="text-align:center">
             <p class="title-text">戸締りレポート - 安心な戸締りをサポートします。</p>
-            <p>戸締りレポートは、戸締り＋レポート。会社やお店の戸締りのレポートすることで、安全に行うためのシンプルなツールです。</p>
+            <p>会社やお店やレンタル施設。戸締りした結果をレポートすることで、戸締りを忘れないためのシンプルなツールです。</p>
         </div>
         <CatchIamge style="margin-top:40px;"></CatchIamge>
         <div style="position: absolute; bottom: 100px;">
