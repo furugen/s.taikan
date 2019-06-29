@@ -1,20 +1,41 @@
 <template>
   <div id="login-container">
-    <div id="login">ログイン</div>
+    <div id="login-form">
+    <v-form
+      ref="form"
+      v-model="valid"
+      lazy-validation
+    >
+        <v-text-field
+          v-model="userid"
+          label="user"
+          required
+        ></v-text-field>
+
+         <v-text-field
+          v-model="password"
+          label="password"
+          required
+        ></v-text-field>
+
+        <v-btn>
+          ログイン
+          </v-btn>
+      </v-form>
+      </div>
   </div>
 </template>
 
 <style lang="scss">
 #login-container {
   padding: 20px;
-  background-color: darkgray;
   color: darkgray;
 }
-#login {
+#login-form {
   width: 500px;
   height: 400px;
+  padding: 40px;
   background-color: white;
-  color: darkgray;
   margin-left: auto;
   margin-right: auto;
 }

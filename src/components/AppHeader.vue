@@ -22,22 +22,6 @@
         </v-btn>
     </v-toolbar>
 
-    <!-- <div id="header-content" class="top-scroll">
-      <div id="nav">
-        <div class="container">
-          <div class="left-menu">
-            aaaaa
-            <RouterLinkButton to="/" label="戸締りReport"></RouterLinkButton>
-          </div>
-
-          <div class="right-menu">
-            <RouterLinkButton to="/about" label="機能について">aaaa</RouterLinkButton>
-            <RouterLinkButton to="/price" label="料金プラン"></RouterLinkButton>
-            <RouterLinkButton to="/login" label="ログイン"></RouterLinkButton>
-          </div>
-        </div>
-      </div>
-    </div> -->
   </div>
 
 </template>
@@ -66,38 +50,7 @@
   z-index: 2;
   width: 100%;
 }
-.top-scroll {
-  background-color: #058584;
-  color: whitesmoke;
-  :link,
-  :visited,
-  :hover,
-  :active,
-  :focus {
-    color: white;
-  }
-}
-.scroll {
-  background-color: white;
-  color: darkolivegreen;
-  box-shadow: 0 2px 4px grey;
-  :link,
-  :visited,
-  :hover,
-  :active,
-  :focus {
-    color: darkolivegreen;
-  }
-}
 
-#nav {
-  padding: 18px;
-  a {
-    margin-left: 10px;
-    margin-right: 10px;
-    text-decoration: none;
-  }
-}
 </style>
 
 <script>
