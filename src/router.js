@@ -5,6 +5,7 @@ import Login from "./views/Login.vue";
 import Price from "./views/Price.vue";
 import Report from "./views/Report.vue";
 import Admin from "./views/Admin.vue";
+import AdminList from "./components/admin/list.vue";
 import ReportComplete from "./views/ReportComplete.vue"
 
 Vue.use(Router);
@@ -37,6 +38,12 @@ export default new Router({
     {
       path: "/report-complete",
       component: ReportComplete
+    },
+    {
+      path: "/admin-home",
+      components: {
+        maincontent : AdminList
+      }
     },
     {
       path: "/about",

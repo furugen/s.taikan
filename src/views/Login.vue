@@ -1,28 +1,14 @@
 <template>
   <div id="login-container">
     <div id="login-form">
-    <v-form
-      ref="form"
-      v-model="valid"
-      lazy-validation
-    >
-        <v-text-field
-          v-model="userid"
-          label="user"
-          required
-        ></v-text-field>
+      <v-form ref="form" lazy-validation>
+        <v-text-field  label="user" required></v-text-field>
 
-         <v-text-field
-          v-model="password"
-          label="password"
-          required
-        ></v-text-field>
+        <v-text-field  label="password" required></v-text-field>
 
-        <v-btn to="/admin">
-          ログイン
-          </v-btn>
+        <v-btn to="/admin">ログイン</v-btn>
       </v-form>
-      </div>
+    </div>
   </div>
 </template>
 
@@ -45,9 +31,7 @@
 <script>
 // @ is an alias to /src
 
-
 export default {
-  components: {
-  }
+  components: {},
 };
 </script>
