@@ -6,7 +6,13 @@ import Price from "./views/Price.vue";
 import Report from "./views/Report.vue";
 import Admin from "./views/Admin.vue";
 import AdminList from "./components/admin/list.vue";
-import ReportComplete from "./views/ReportComplete.vue"
+import AdminAdd from "./components/admin/add.vue";
+import AdminCheckList from "./components/admin/checklist.vue";
+import AdminMessage from "./components/admin/message.vue";
+import AdminCalendar from "./components/admin/calender.vue";
+
+
+import ReportComplete from "./views/ReportComplete.vue";
 
 Vue.use(Router);
 
@@ -33,17 +39,33 @@ export default new Router({
     },
     {
       path: "/admin",
-      component: Admin
+      component: Admin,
+      children: [
+        {
+          path: "checklist",
+          component: AdminCheckList
+        },
+        {
+          path: "add",
+          component: AdminAdd
+        },
+        {
+          path: "list",
+          component: AdminList
+        },
+        {
+          path: "message",
+          component: AdminMessage
+        },
+        {
+          path: "calender",
+          component: AdminCalendar
+        },
+      ]
     },
     {
       path: "/report-complete",
       component: ReportComplete
-    },
-    {
-      path: "/admin-home",
-      components: {
-        maincontent : AdminList
-      }
     },
     {
       path: "/about",
