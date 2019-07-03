@@ -6,9 +6,9 @@
 
         <v-text-field  label="password" required></v-text-field>
 
-        <v-btn to="/admin">ログイン</v-btn>
+        <v-btn to="/admin/list">ログイン</v-btn>
       </v-form>
-    </div>
+    </div>  
   </div>
 </template>
 

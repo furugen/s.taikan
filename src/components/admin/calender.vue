@@ -1,5 +1,7 @@
 <template>
     <div >
-        カレンダー
+          <v-calendar
+
+          ></v-calendar>
     </div>
 </template>

@@ -42,6 +42,10 @@ export default new Router({
       component: Admin,
       children: [
         {
+          path: "",
+          component: AdminList
+        },
+        {
           path: "checklist",
           component: AdminCheckList
         },
