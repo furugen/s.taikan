@@ -15,7 +15,6 @@
 <style lang="scss">
 #login-container {
   padding: 20px;
-  color: darkgray;
 }
 #login-form {
   width: 500px;

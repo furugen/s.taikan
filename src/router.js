@@ -10,7 +10,7 @@ import AdminAdd from "./components/admin/add.vue";
 import AdminCheckList from "./components/admin/checklist.vue";
 import AdminMessage from "./components/admin/message.vue";
 import AdminCalendar from "./components/admin/calender.vue";
-
+import AdminSetting from "./components/admin/setting.vue";
 
 import ReportComplete from "./views/ReportComplete.vue";
 
@@ -65,6 +65,10 @@ export default new Router({
           path: "calender",
           component: AdminCalendar
         },
+        {
+          path: "setting",
+          component: AdminSetting
+        }
       ]
     },
     {

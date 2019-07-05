@@ -1,5 +1,5 @@
 <template>
-  <v-data-table :headers="headers" :items="desserts" class="elevation-1">
+  <v-data-table :headers="headers" :items="desserts" class="elevation-1" style="padding : 10px;">
     <template v-slot:items="props">
       <td>{{ props.item.name }}</td>
       <td class="text-xs-right">{{ props.item.calories }}</td>

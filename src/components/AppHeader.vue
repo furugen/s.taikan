@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-toolbar app>
+    <v-toolbar app >
         <v-toolbar-title class="headline ">
           <router-link  to="/">
           <span class="font-weight-light">戸締りReport</span>
