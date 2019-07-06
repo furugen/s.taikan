@@ -20,6 +20,7 @@ import Content4 from "@/components/top/Content4.vue";
 import Content5 from "@/components/top/Content5.vue";
 import Content6 from "@/components/top/Content6.vue";
 
+
 export default {
   components: {
     Content1,
